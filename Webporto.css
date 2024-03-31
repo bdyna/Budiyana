@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 nav{
     margin: 0px;
@@ -10,20 +10,242 @@ nav{
     background-color: #023246;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 img{
    width: 50px;
    margin-left: 8px;
 }
 nav ul li{
+    width: 9px;
     display: inline;
     color: #ffff;
     padding: 20px;
+    margin: 0;
 }
 .instagram{
     width: 20px;
+    height: 20px;
+    margin-left: 40px;
 }
 .foto{
     width: 600px;
     margin-top: -200px;
 }
+.section-kanan {
+    display: flex;
+}
+.sosmed { 
+    display: flex;
+    margin-right: 30px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+.hi{
+    font-size: 28px;
+    margin-top: 150px;
+    color: #023246;
+}
+.hi h2{
+    font-size: 96px;
+    color: #023246;
+    margin-top: -20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    background-color: #023246;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 12px;
+    font-size: 24px;
+}
+.greeting{
+    align-items: center;
+    background-color: #287194;
+    color: white;
+    margin: 0;
+    padding: 40px;
+    font-size: 20px;
+    height: 170px;
+    text-align: center;
+}
+.portofolio{
+    height: 800px;
+    background-color: #023246;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    justify-content: center;
+    margin-top: -80px;
+}
+.portofolio h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 36px;
+}
+
+.bagianone{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: top;
+}
+.portoone{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+   
+    text-align: center;
+}
+.portoone img{
+    width: 380px;
+}
+.portoone p{
+    width: 380px;
+    margin-left: 8px;
+}
+.portotwo{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+    
+    text-align: center;
+}
+.portotwo img{
+    width: 380px;
+}
+.portotwo p{
+    width: 300px;
+    margin-left: 50px;
+}
+.portothree{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+  
+    text-align: center;
+}
+.portothree img{
+    width: 380px;
+}
+.portothree p{
+    width: 320px;
+    margin-left: 38px;
+}
+
+.bagiantwo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: top;
+}
+.portofour{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+    text-align: center;
+}
+.portofour img{
+    width: 380px;
+}
+.portofour p{
+    width: 380px;
+    margin-left: 8px;
+}
+.portofive{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+    text-align: center;
+}
+.portofive img{
+    width: 380px;
+}
+.portofive p{
+    width: 280px;
+    margin-left: 60px;
+}
+.portosix{
+    width: 380px;
+    color: #ffff;
+    font-size: 24px;
+    text-align: center;
+}
+.portosix img{
+    width: 380px;
+}
+.portosix p{
+    width: 320px;
+    margin-left: 38px;
+}
+
+.tools{
+    background-color: #287194;
+    height: 400px;
+}
+.tools h1{
+    color: #ffff;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+.tools div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.tools div img{
+    margin: 40px;
+    width: 70px;
+}
+.experience{
+    height: 550px;
+    background-color: #023246;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    margin-top: -120px;
+}
+.experience h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 36px;
+}
+.experience div{
+    color: #ffff;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 1400px;
+}
+.experience ul{
+    padding: 90px;
+    margin-top: -65px;
+}
+.experience ul li{
+    padding: 20px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    color: #023246;
+    padding: 20px;
+    font-size: 20px;
+}
+
+    
